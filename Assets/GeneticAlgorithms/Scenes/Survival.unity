@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -402,15 +402,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   personPrefab: {fileID: 1734903543758822, guid: 51d6f09c4aada4554a972165211005c2, type: 3}
-  populationSize: 10
-  controlColor: 0
-  controlSize: 0
-  delay: 0.1
-  generationDelay: 0.5
-  mutationRate: 0.01
+  populationSize: 100
+  delay: 0.01
+  mutationRate: 10
   automated: 1
-  idealColor: {r: 1, g: 0, b: 0, a: 0}
-  idealSize: 0.3
+  idealColor: {r: 0.74509805, g: 0.41960788, b: 0.6606071, a: 0}
+  idealSize: 0.1
 --- !u!4 &2101354211
 Transform:
   m_ObjectHideFlags: 0

@@ -18,13 +18,13 @@ public class DNA : MonoBehaviour
     
 
     SpriteRenderer spriteRenderer;
-    Collider2D collider2D;
+    Collider2D _collider2D;
     
     // Start is called before the first frame update
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        collider2D = GetComponent<Collider2D>();
+        _collider2D = GetComponent<Collider2D>();
         spriteRenderer.color = new Color(r, g, b, 1);
 
         this.transform.localScale = new Vector3(scale, scale, scale);
@@ -38,7 +38,7 @@ public class DNA : MonoBehaviour
         isDead = true;
         timeToDie = populationManager.GetElapsedTime();
         spriteRenderer.enabled = false;
-        collider2D.enabled = false;
+        _collider2D.enabled = false;
     }
 
     public void Kill()
@@ -46,6 +46,6 @@ public class DNA : MonoBehaviour
         isDead = true;
         timeToDie = populationManager.GetElapsedTime();
         spriteRenderer.enabled = false;
-        collider2D.enabled = false;
+        _collider2D.enabled = false;
     }
 }
