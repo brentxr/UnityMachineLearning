@@ -406,8 +406,8 @@ MonoBehaviour:
   delay: 0.01
   mutationRate: 10
   automated: 1
-  idealColor: {r: 0.74509805, g: 0.41960788, b: 0.6606071, a: 0}
-  idealSize: 0.1
+  idealColor: {r: 0.11816907, g: 1, b: 0, a: 0}
+  idealSize: 0.3
 --- !u!4 &2101354211
 Transform:
   m_ObjectHideFlags: 0

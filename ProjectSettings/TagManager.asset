@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Person
+  - dead
+  - platform
+  - wall
+  - Top
+  - upwall
+  - downwall
+  - bottom
+  - top
   layers:
   - Default
   - TransparentFX
@@ -13,7 +21,7 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - Bot
   - 
   - 
   - 
