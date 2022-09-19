@@ -34,6 +34,13 @@ namespace Maze
             GUI.EndGroup();
         }
 
+        public void fizz()
+        {
+            int test = 16;
+            
+            (test % 3 == 0 && test % 5 == 0) ? Console.WriteLine("FizzBuzz") : Console.WriteLine("Fizz");
+        }
+
         private void Start()
         {
             for (int i = 0; i < populationSize; i++)
